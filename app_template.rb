@@ -18,3 +18,4 @@ get "#{repo_uri}/initializers/i18n.rb", 'config/initializers/i18n.rb'
 get "#{repo_uri}/initializers/mailer.rb", 'config/initializers/mailer.rb'
 get "#{repo_uri}/initializers/session_redis.rb", 'config/initializers/session_redis.rb'
 
+get "#{repo_uri}/lib/tasks/schema.rake", 'lib/tasks/schema.rake'
