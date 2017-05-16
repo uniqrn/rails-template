@@ -15,4 +15,6 @@ uncomment_lines 'Gemfile', "gem 'redis'"
 run "bundle install"
 
 get "#{repo_uri}/initializers/i18n.rb", 'config/initializers/i18n.rb'
+get "#{repo_uri}/initializers/mailer.rb", 'config/initializers/mailer.rb'
+get "#{repo_uri}/initializers/session_redis.rb", 'config/initializers/session_redis.rb'
 
